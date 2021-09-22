@@ -1,0 +1,61 @@
+:root{
+  --background-color:#fcde67;
+}
+body{
+  background-color: var(--background-color);
+  margin:0;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: black;
+  padding: 1rem;
+  max-width: 40%;
+}
+h1{
+  margin: auto;
+  padding: 2rem 0rem ;
+}
+input, label{
+  font-weight: bold;
+  padding: 0.5rem;
+}
+#checkbtn{
+  align-self: center;
+  max-width:20% ;
+color: white;
+padding:  0.7rem 1rem;
+margin: 0.5rem 0rem;
+border-style: none;
+border-radius: 0.5rem;
+border: 2px solid black;
+background-color: black;
+cursor: pointer;
+}
+p{
+  font-weight: bold;
+  text-align: center;
+  margin: 1.5rem 1rem;
+}
+#result{
+  padding: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+i{
+  color: black;
+  font-size: 2.5rem;
+}
+.list-item-inline{
+  display: inline;
+  list-style: none;
+  padding: 1.5rem;
+}
+.footer{
+  text-align: center;
+  padding-top: 8rem;
+}
